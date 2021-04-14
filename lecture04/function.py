@@ -16,6 +16,7 @@ def main():
 
 
 def calculate_average(numbers):
+    """Calculate the average value of a list of numbers."""
     count = 0
     total = 0
     for number in numbers:
@@ -25,6 +26,7 @@ def calculate_average(numbers):
 
 
 def get_median(numbers):
+    """Get the median value of a list of numbers."""
     return statistics.median(numbers)
 
 
