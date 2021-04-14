@@ -7,7 +7,6 @@ the number squared
 
 def main():
     number = int(input("Enter number: "))
-    square(number)
     print("{}^2 = {}".format(number, square(number)))
 
 
