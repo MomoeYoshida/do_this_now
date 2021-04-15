@@ -13,10 +13,10 @@ new_number = number * 2
 print("The answer is {}".format(new_number))
 
 
-number = int(input("Enter a number: "))
+number = float(input("Enter a number: "))
 number_squared = number ** 2
 print("The answer is {}".format(number_squared))
 while number > 0:
-    number = int(input("Enter a number: "))
+    number = float(input("Enter a number: "))
     number_squared = number ** 2
     print("The answer is {}".format(number_squared))
