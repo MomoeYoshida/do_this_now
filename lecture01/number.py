@@ -8,7 +8,7 @@ print that number squared. When the user enters zero or a negative number,
 stop repeating.
 """
 
-number = int(input("Enter a number: "))
+number = float(input("Enter a number: "))
 new_number = number * 2
 print("The answer is {}".format(new_number))
 
