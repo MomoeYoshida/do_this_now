@@ -8,8 +8,12 @@ Write Python code to ask the user for their age and tell them if they are an
 adult or child.
 """
 
+MIN_AGE = 0
+MAX_AGE = 150
+
 age = int(input("Enter your age: "))
-while not 0 <= age <= 150:
+while not MIN_AGE <= age <= MAX_AGE:
+    print("Invalid age. Please enter an age ({}-{})".format(MIN_AGE, MAX_AGE))
     age = int(input("Enter your age: "))
 print("Your age is {}".format(age))
 
