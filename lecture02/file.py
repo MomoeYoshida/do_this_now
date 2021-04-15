@@ -6,12 +6,12 @@ vice versa
 """
 
 input_file = open("on_and_off.txt", "r")
-line = input_file.readline()
+line = input_file.read()
 input_file.close()
-
-output_file = open("on_and_off.txt", "w")
 if line == "on":
-    output_file.write("off")
+    line = "off"
 else:
-    output_file.write("on")
+    line = "on"
+output_file = open("on_and_off.txt", "w")
+print(line, file=output_file)
 output_file.close()
