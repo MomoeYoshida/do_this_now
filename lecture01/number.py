@@ -14,9 +14,7 @@ print("The answer is {}".format(new_number))
 
 
 number = float(input("Enter a number: "))
-number_squared = number ** 2
-print("The answer is {}".format(number_squared))
 while number > 0:
-    number = float(input("Enter a number: "))
     number_squared = number ** 2
     print("The answer is {}".format(number_squared))
+    number = float(input("Enter a number: "))
